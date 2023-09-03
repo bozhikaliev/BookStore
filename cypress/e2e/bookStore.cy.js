@@ -8,6 +8,7 @@ describe ('BookStore app', () => {
         .should('be.within', 200, 399);
         }
 
+    //test for login/logut
     it('Login and Logout', () => {
 
         //intercepting the response from the API call
@@ -25,6 +26,7 @@ describe ('BookStore app', () => {
         assertSuccessfulResponse("@login")
     })
 
+    //test with a whole user flow
     it('User flow', () => {
 
         //intercepting the responses from the API calls
